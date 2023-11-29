@@ -18,7 +18,7 @@ List<Lesson> lessonList = [
   Lesson(
     duration: '10 min 11 sec',
 
-    name: "Cài dặt môi trường",
+    name: "Cài đặt môi trường",
   ),
   Lesson(
     duration: '7 min',

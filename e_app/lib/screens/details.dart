@@ -210,14 +210,14 @@ class LessonCard extends StatelessWidget {
             MaterialPageRoute(builder: (context) => PlayVideoScreen(index: 2,),
             ),
           );
-        // }else if(lesson.name == "Cấu trúc dự án Flutter") {
-        //   Navigator.push(context,
-        //     MaterialPageRoute(builder: (context) => PlayVideoScreen(index: 3,),
-        //     ),
-        //   );
-        }else if(lesson.name == "Stateless Widget & Stateful Widget") {
+        }else if(lesson.name == "Cấu trúc dự án Flutter") {
           Navigator.push(context,
             MaterialPageRoute(builder: (context) => PlayVideoScreen(index: 3,),
+            ),
+          );
+        }else if(lesson.name == "Stateless Widget & Stateful Widget") {
+          Navigator.push(context,
+            MaterialPageRoute(builder: (context) => PlayVideoScreen(index: 4,),
             ),
           );
         }
@@ -261,7 +261,7 @@ class Description extends StatelessWidget {
     return const Padding(
       padding: EdgeInsets.only(top: 20.0),
       child: Text(
-          "Build Flutter iOS and Android Apps with a Single Codebase: Learn Google's Flutter Mobile Development Framework & Dart"),
+          " Flutter là một trong những framwork hỗ trợ lập trình đa nền tảng phổ biến, sử dụng dart làm ngôn ngữ chính"),
     );
   }
 }
